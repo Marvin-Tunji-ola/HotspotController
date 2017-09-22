@@ -1,5 +1,5 @@
 # HotspotController
-Hotspot is a OpenSource JavaFXML application that serve as an Hosted Network / Hotspot Controller and manager.
+HotspotController is a OpenSource JavaFXML application that serve as an Hosted Network / Hotspot Controller and manager.
 <h4>You can:</h4>
 <ol>
 <li>Turn-on/Turn-off Hotspot with a click</li>
