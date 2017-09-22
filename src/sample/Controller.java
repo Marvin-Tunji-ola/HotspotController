@@ -68,7 +68,7 @@ public class Controller implements Initializable {
 
         developer.setOnAction((e)->{
             try {
-                Desktop.getDesktop().browse(new URI("http://www.example.com"));
+                Desktop.getDesktop().browse(new URI("https://about.me/marvin-tunji-ola"));
             } catch (IOException e1) {
                 e1.printStackTrace();
             } catch (URISyntaxException e1) {

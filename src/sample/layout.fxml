@@ -23,6 +23,87 @@
 
 <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
 <tabs>
+    <Tab id="settings_tab" text="Settings">
+        <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox fx:id="settingsForm" layoutX="6.0" layoutY="3.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="335.0" prefWidth="240.0" spacing="5.0">
+                     <children>
+                        <Label fx:id="errorLabel" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="20.0" prefWidth="240.0" textFill="#ab0d0d" wrapText="true" />
+                        <Label text="Network SSID:" />
+                        <TextField fx:id="editSSID" prefHeight="25.0" prefWidth="229.0" />
+                        <Label text="Password" />
+                        <PasswordField fx:id="editPasskey" />
+                        <CheckBox fx:id="showPasskey" mnemonicParsing="false" text="Show Password" />
+                        <Button fx:id="saveSettings" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="32.0" prefWidth="240.0" text="Save Settings" />
+                        <Label fx:id="successLabel" alignment="TOP_CENTER" prefWidth="240.0" textFill="#2b973b" />
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+        </content>
+    </Tab>
+    <Tab id="about_tab" text="About">
+        <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <children>
+                    <VBox alignment="TOP_CENTER" layoutX="5.0" layoutY="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="240.0">
+                        <children>
+                            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="19.0" prefWidth="240.0" text="HotSpot Controller 1.0" textFill="#b21919">
+                                <font>
+                                    <Font name="System Bold" size="18.0" />
+                                </font>
+                            </Label>
+                            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="172.0" layoutY="10.0" prefHeight="19.0" prefWidth="263.0" text="Windows Hotspot Controller  and Manager" textAlignment="CENTER">
+                                <font>
+                                    <Font name="System Bold" size="10.0" />
+                                </font>
+                            </Label>
+                            <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="316.0" prefWidth="240.0">
+                           <content>
+                              <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="314.0" prefWidth="238.0">
+                                 <children>
+                                    <Label prefHeight="25.0" prefWidth="241.0" text="Product:">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="Hotspot Controller" />
+                                    <Region prefHeight="15.0" prefWidth="228.0" />
+                                    <Label prefHeight="25.0" prefWidth="241.0" text="Build Information:">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="17.0" prefWidth="247.0" text="Version 1.0" />
+                                    <Label prefHeight="17.0" prefWidth="247.0" text="Java Version 1.8.0_111 Oracle Corporation" />
+                                    <Region prefHeight="15.0" prefWidth="228.0" />
+                                    <Label prefHeight="25.0" prefWidth="272.0" text="Operating System:">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="17.0" prefWidth="247.0" text="Windows 7/8/10" />
+                                    <Region prefHeight="15.0" prefWidth="228.0" />
+                                    <Label prefHeight="25.0" prefWidth="272.0" text="Developer:">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="17.0" prefWidth="247.0" text="Marvin Tunji-ola" />
+                                    <Hyperlink fx:id="developer" prefHeight="23.0" prefWidth="240.0" text="Contact Developer" />
+                                    <Region prefHeight="20.0" prefWidth="228.0" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="247.0" text="Copyright (c) 2017 Marvins Concept" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </VBox>
+                           </content></ScrollPane>
+                        </children>
+                    </VBox>
+                </children></AnchorPane>
+        </content>
+    </Tab>
     <Tab id="controls_tab" text="Controls">
         <content>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="332.0" prefWidth="425.0">
@@ -86,84 +167,6 @@
                      </children>
                   </GridPane>
                   <TextArea fx:id="console" accessibleRole="TEXT" editable="false" layoutX="5.0" layoutY="279.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="87.0" prefWidth="240.0" wrapText="true" />
-                </children></AnchorPane>
-        </content>
-    </Tab>
-    <Tab id="settings_tab" text="Settings">
-        <content>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-               <children>
-                  <VBox fx:id="settingsForm" layoutX="6.0" layoutY="3.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="335.0" prefWidth="240.0" spacing="5.0">
-                     <children>
-                        <Label fx:id="errorLabel" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="20.0" prefWidth="240.0" textFill="#ab0d0d" wrapText="true" />
-                        <Label text="Network SSID:" />
-                        <TextField fx:id="editSSID" prefHeight="25.0" prefWidth="229.0" />
-                        <Label text="Password" />
-                        <PasswordField fx:id="editPasskey" />
-                        <CheckBox fx:id="showPasskey" mnemonicParsing="false" text="Show Password" />
-                        <Button fx:id="saveSettings" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="32.0" prefWidth="240.0" text="Save Settings" />
-                        <Label fx:id="successLabel" alignment="TOP_CENTER" prefWidth="240.0" textFill="#2b973b" />
-                     </children>
-                  </VBox>
-               </children></AnchorPane>
-        </content>
-    </Tab>
-    <Tab id="about_tab" text="About">
-        <content>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                <children>
-                    <VBox alignment="TOP_CENTER" layoutX="5.0" layoutY="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="240.0">
-                        <children>
-                            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="19.0" prefWidth="240.0" text="HotSpot Controller 1.0" textFill="#b21919">
-                                <font>
-                                    <Font name="System Bold" size="18.0" />
-                                </font>
-                            </Label>
-                            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="172.0" layoutY="10.0" prefHeight="19.0" prefWidth="263.0" text="Windows Hotspot Controller  and Manager" textAlignment="CENTER">
-                                <font>
-                                    <Font name="System Bold" size="10.0" />
-                                </font>
-                            </Label>
-                            <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="307.0" prefWidth="240.0">
-                           <content>
-                              <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="305.0" prefWidth="238.0">
-                                 <children>
-                                    <Label prefHeight="25.0" prefWidth="241.0" text="Product:">
-                                       <font>
-                                          <Font name="System Bold" size="12.0" />
-                                       </font>
-                                    </Label>
-                                    <Label text="Hotspot Controller" />
-                                    <Region prefHeight="15.0" prefWidth="228.0" />
-                                    <Label prefHeight="25.0" prefWidth="241.0" text="Build Information:">
-                                       <font>
-                                          <Font name="System Bold" size="12.0" />
-                                       </font>
-                                    </Label>
-                                    <Label prefHeight="17.0" prefWidth="247.0" text="Version 1.0" />
-                                    <Label prefHeight="17.0" prefWidth="247.0" text="Java Version 1.8.0_111 Oracle Corporation" />
-                                    <Region prefHeight="15.0" prefWidth="228.0" />
-                                    <Label prefHeight="25.0" prefWidth="272.0" text="Operating System:">
-                                       <font>
-                                          <Font name="System Bold" size="12.0" />
-                                       </font>
-                                    </Label>
-                                    <Label prefHeight="17.0" prefWidth="247.0" text="Windows 7/8/10" />
-                                    <Region prefHeight="15.0" prefWidth="228.0" />
-                                    <Label prefHeight="25.0" prefWidth="272.0" text="Developer:">
-                                       <font>
-                                          <Font name="System Bold" size="12.0" />
-                                       </font>
-                                    </Label>
-                                    <Hyperlink fx:id="developer" text="Hyperlink" />
-                                 </children>
-                                 <padding>
-                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-                                 </padding>
-                              </VBox>
-                           </content></ScrollPane>
-                        </children>
-                    </VBox>
                 </children></AnchorPane>
         </content>
     </Tab>
