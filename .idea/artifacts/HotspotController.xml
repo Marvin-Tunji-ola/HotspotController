@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="HotspotController">
+    <output-path>$PROJECT_DIR$/out/artifacts/HotspotController</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="alias" value="" />
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="Hotspot Controller and Manager&#9;" />
+        <option name="enabledSigning" value="true" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="keystore" value="" />
+        <option name="title" value="HotSpot Controller" />
+        <option name="vendor" value="Marvin Tunji-ola" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="HotspotController.jar">
+        <element id="module-output" name="HotspotController" />
+      </element>
+    </root>
+  </artifact>
+</component>

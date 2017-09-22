@@ -23,6 +23,72 @@
 
 <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
 <tabs>
+    <Tab id="controls_tab" text="Controls">
+        <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="332.0" prefWidth="425.0">
+                <children>
+                    <ToggleButton fx:id="hotspotSwitch" layoutX="45.0" layoutY="38.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="161.0" style="-fx-background-color: #0fc944;" text="Turn On Hotspot" textFill="WHITE" />
+                    <Label layoutX="6.0" layoutY="103.0" mouseTransparent="true" prefHeight="20.0" prefWidth="76.0" text="Properties">
+                        <font>
+                            <Font name="System Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Separator layoutX="5.0" layoutY="122.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="0.0" prefWidth="240.0" />
+                    <Label layoutX="6.0" layoutY="256.0" prefHeight="20.0" prefWidth="61.0" text="Message">
+                        <font>
+                            <Font name="System Bold" size="14.0" />
+                        </font>
+                    </Label>
+                  <Separator layoutX="5.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="0.0" prefWidth="240.0" />
+                  <GridPane layoutX="5.0" layoutY="126.0" prefHeight="120.0" prefWidth="240.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label fx:id="ssid" text="Connect" GridPane.columnIndex="1">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="type" text="Wi-fi" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="security" text="WPA-2 Personal" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="status" text="InActive" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="connected" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                          <Label text="Network SSID:" />
+                        <Label text="Network Type:" GridPane.rowIndex="1" />
+                        <Label text="Network Security:" GridPane.rowIndex="2" />
+                        <Label text="Network Status:" GridPane.rowIndex="3" />
+                        <Label text="Connected:" GridPane.rowIndex="4" />
+                     </children>
+                  </GridPane>
+                  <TextArea fx:id="console" accessibleRole="TEXT" editable="false" layoutX="5.0" layoutY="279.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="87.0" prefWidth="240.0" wrapText="true" />
+                </children></AnchorPane>
+        </content>
+    </Tab>
     <Tab id="settings_tab" text="Settings">
         <content>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
@@ -101,72 +167,6 @@
                            </content></ScrollPane>
                         </children>
                     </VBox>
-                </children></AnchorPane>
-        </content>
-    </Tab>
-    <Tab id="controls_tab" text="Controls">
-        <content>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="332.0" prefWidth="425.0">
-                <children>
-                    <ToggleButton fx:id="hotspotSwitch" layoutX="45.0" layoutY="38.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="161.0" style="-fx-background-color: #0fc944;" text="Turn On Hotspot" textFill="WHITE" />
-                    <Label layoutX="6.0" layoutY="103.0" mouseTransparent="true" prefHeight="20.0" prefWidth="76.0" text="Properties">
-                        <font>
-                            <Font name="System Bold" size="14.0" />
-                        </font>
-                    </Label>
-                    <Separator layoutX="5.0" layoutY="122.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="0.0" prefWidth="240.0" />
-                    <Label layoutX="6.0" layoutY="256.0" prefHeight="20.0" prefWidth="61.0" text="Message">
-                        <font>
-                            <Font name="System Bold" size="14.0" />
-                        </font>
-                    </Label>
-                  <Separator layoutX="5.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="0.0" prefWidth="240.0" />
-                  <GridPane layoutX="5.0" layoutY="126.0" prefHeight="120.0" prefWidth="240.0">
-                    <columnConstraints>
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                      <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                    </columnConstraints>
-                    <rowConstraints>
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                    </rowConstraints>
-                     <children>
-                        <Label fx:id="ssid" text="Connect" GridPane.columnIndex="1">
-                           <font>
-                              <Font name="System Bold Italic" size="12.0" />
-                           </font>
-                        </Label>
-                        <Label fx:id="type" text="Wi-fi" GridPane.columnIndex="1" GridPane.rowIndex="1">
-                           <font>
-                              <Font name="System Bold Italic" size="12.0" />
-                           </font>
-                        </Label>
-                        <Label fx:id="security" text="WPA-2 Personal" GridPane.columnIndex="1" GridPane.rowIndex="2">
-                           <font>
-                              <Font name="System Bold Italic" size="12.0" />
-                           </font>
-                        </Label>
-                        <Label fx:id="status" text="InActive" GridPane.columnIndex="1" GridPane.rowIndex="3">
-                           <font>
-                              <Font name="System Bold Italic" size="12.0" />
-                           </font>
-                        </Label>
-                        <Label fx:id="connected" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
-                           <font>
-                              <Font name="System Bold Italic" size="12.0" />
-                           </font>
-                        </Label>
-                          <Label text="Network SSID:" />
-                        <Label text="Network Type:" GridPane.rowIndex="1" />
-                        <Label text="Network Security:" GridPane.rowIndex="2" />
-                        <Label text="Network Status:" GridPane.rowIndex="3" />
-                        <Label text="Connected:" GridPane.rowIndex="4" />
-                     </children>
-                  </GridPane>
-                  <TextArea fx:id="console" accessibleRole="TEXT" editable="false" layoutX="5.0" layoutY="279.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="87.0" prefWidth="240.0" wrapText="true" />
                 </children></AnchorPane>
         </content>
     </Tab>
