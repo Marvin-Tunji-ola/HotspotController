@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HotspotController.jnlp">
   <information>
-    <title>HotSpot Controller</title>
-    <vendor>Marvin Tunji-ola</vendor>
-    <description>Hotspot Controller and Manager </description>
+    <title>HotspotController 1.0</title>
+    <vendor>Marvin's Concept</vendor>
+    <description>HotspotController</description>
     <offline-allowed/>
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="HotspotController.jar" size="17955" download="eager" />
+    <jar href="HotspotController.jar" size="349646" download="eager" />
   </resources>
 <security>
   <all-permissions/>

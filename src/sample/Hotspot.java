@@ -16,6 +16,7 @@ public class Hotspot {
         String input = "";
         String output;
         try{
+            //Runtime.getRuntime().exec("Runtime.getRuntime().exec("runas /profile /user:Administrator \"cmd.exe /c Powrprof.dll,SetSuspendState\"");");
             Process p = Runtime.getRuntime().exec("netsh wlan start hostednetwork");
 
             BufferedReader stdInput = new BufferedReader(new InputStreamReader(p.getInputStream()));
@@ -227,11 +228,7 @@ public class Hotspot {
                     status = in.next();
                 }
             }
-            if(status.equals("Started")){
-                isActive = true;
-            }else{
-                isActive = false;
-            }
+            isActive = status.equals("Started");
         }catch(IOException ex) {
 
             JOptionPane.showMessageDialog(null, ex.getMessage().toString());

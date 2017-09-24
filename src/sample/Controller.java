@@ -151,15 +151,15 @@ public class Controller implements Initializable {
         new Thread(()->{
             String result = Hotspot.startNetwork();
             if(result.equalsIgnoreCase("started")){
-            Platform.runLater(() -> {
-                //Update UI here
-                isActive = true;
-                setVariables();
-                status.setText("Active");
-                hotspotSwitch.setText("Turn Off Hotspot");
-                hotspotSwitch.setStyle("-fx-background-color:#d31e1e;");
-                console.setText("Hosted Network Started");
-            });
+                Platform.runLater(() -> {
+                    //Update UI here
+                    isActive = true;
+                    setVariables();
+                    status.setText("Active");
+                    hotspotSwitch.setText("Turn Off Hotspot");
+                    hotspotSwitch.setStyle("-fx-background-color:#d31e1e;");
+                    console.setText("Hosted Network Started");
+                });
             }else{
                 console.setText(result);
             }
@@ -190,7 +190,8 @@ public class Controller implements Initializable {
 
     public void setVariables(){
 
-        new Thread(()->{
+        new Thread( ()->
+        {
             String ssidString = Hotspot.getSSID(), noOfDev = Hotspot.getNoOfDevices(),
             securityType = Hotspot.getSecurity(), password = Hotspot.getPassword();
             isActive = Hotspot.isActive();
