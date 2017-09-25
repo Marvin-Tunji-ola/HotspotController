@@ -109,7 +109,7 @@ public class Controller implements Initializable {
         saveSettings.setOnMouseClicked((e)->{
             String SSID = editSSID.getText().trim();
             String passkey = editPasskey.getText().trim();
-            if(passkey.length() > 8) {
+            if(passkey.length() >= 8) {
                 errorLabel.setText("");
                 //String passResult, ssidResult;
 

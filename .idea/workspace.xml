@@ -9,12 +9,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/sample/Controller.java" line="182" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Just a Little More Change">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HotspotController/HotspotController.jar" afterPath="$PROJECT_DIR$/out/artifacts/HotspotController/HotspotController.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HotspotController/jb-jfx.jks" afterPath="$PROJECT_DIR$/out/artifacts/HotspotController/jb-jfx.jks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/HotspotController.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/HotspotController.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HotspotController/sample/Controller.class" afterPath="$PROJECT_DIR$/out/production/HotspotController/sample/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HotspotController/HotspotController.jnlp" afterPath="$PROJECT_DIR$/out/artifacts/HotspotController/HotspotController.jnlp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,24 +95,30 @@
       <file leaf-file-name="Hotspot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Hotspot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="-51">
+              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="false" />
+                <element signature="method#stopNetwork#0;class#Hotspot#0" expanded="false" />
+                <element signature="method#setSSID#0;class#Hotspot#0" expanded="false" />
+                <element signature="method#getSSID#0;class#Hotspot#0" expanded="false" />
+                <element signature="method#getPassword#0;class#Hotspot#0" expanded="false" />
+                <element signature="method#getSecurity#0;class#Hotspot#0" expanded="false" />
+                <element signature="method#getNoOfDevices#0;class#Hotspot#0" expanded="false" />
+                <element signature="method#isActive#0;class#Hotspot#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
-              <caret line="193" column="8" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
+            <state relative-caret-position="402">
+              <caret line="127" column="20" lean-forward="true" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-                <element signature="e#5907#6770#0" expanded="false" />
+                <element signature="e#5908#6771#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -140,7 +147,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotspotController.manifest" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HotspotController.manifest" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/artifacts/HotspotController/HotspotController.manifest">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -195,11 +202,11 @@
         <option value="$USER_HOME$/Desktop/super-user-application-master/super-user-application-master/src/test/java/com/vnetpublishing/java/suapp/test/TestApp.java" />
         <option value="$PROJECT_DIR$/src/sample/Enter.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/Hotspot.java" />
         <option value="$PROJECT_DIR$/.idea/artifacts/HotspotController.xml" />
         <option value="$PROJECT_DIR$/.idea/artifacts/HotspotController.manifest" />
         <option value="$PROJECT_DIR$/out/artifacts/HotspotController/HotspotController.manifest" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
       </list>
     </option>
   </component>
@@ -446,7 +453,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JAR Application.HotspotController.jar">
     <configuration default="false" name="TestApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -497,6 +504,12 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HotspotController.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/HotspotController/HotspotController.jar" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -912,15 +925,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestApp" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TestApp.sudoTest" />
+      <item index="3" class="java.lang.String" itemvalue="JAR Application.HotspotController.jar" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestApp.sudoTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestApp" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JAR Application.HotspotController.jar" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestApp.sudoTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestApp" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -968,7 +983,7 @@
       <workItem from="1506276902276" duration="5977000" />
       <workItem from="1506287867854" duration="1007000" />
       <workItem from="1506289228798" duration="911000" />
-      <workItem from="1506338733133" duration="858000" />
+      <workItem from="1506338733133" duration="2594000" />
     </task>
     <task id="LOCAL-00001" summary="Just a Little Change">
       <created>1506103942172</created>
@@ -998,7 +1013,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506291585717</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Just a Little More Change">
+      <created>1506339795445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506339795445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1034,11 +1056,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50280000" />
+    <option name="totallyTimeSpent" value="52016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1050,12 +1071,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27462685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2744807" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16398244" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16398244" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1148,9 +1169,8 @@
         <state relative-caret-position="510">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-            <element signature="e#5907#6770#0" expanded="false" />
+            <element signature="e#5908#6771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1195,9 +1215,8 @@
         <state relative-caret-position="561">
           <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-            <element signature="e#5907#6770#0" expanded="false" />
+            <element signature="e#5908#6771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1242,9 +1261,8 @@
         <state relative-caret-position="561">
           <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-            <element signature="e#5907#6770#0" expanded="false" />
+            <element signature="e#5908#6771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1289,9 +1307,8 @@
         <state relative-caret-position="561">
           <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-            <element signature="e#5907#6770#0" expanded="false" />
+            <element signature="e#5908#6771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1336,9 +1353,8 @@
         <state relative-caret-position="714">
           <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-            <element signature="e#5907#6770#0" expanded="false" />
+            <element signature="e#5908#6771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1383,9 +1399,8 @@
         <state relative-caret-position="765">
           <caret line="50" column="28" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-            <element signature="e#5907#6770#0" expanded="false" />
+            <element signature="e#5908#6771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1430,9 +1445,8 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-            <element signature="e#5907#6770#0" expanded="false" />
+            <element signature="e#5908#6771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1519,28 +1533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Hotspot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="193" column="8" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
-            <element signature="e#5907#6770#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HotspotController.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1565,6 +1557,34 @@
         <state relative-caret-position="153">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Hotspot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#stopNetwork#0;class#Hotspot#0" expanded="false" />
+            <element signature="method#setSSID#0;class#Hotspot#0" expanded="false" />
+            <element signature="method#getSSID#0;class#Hotspot#0" expanded="false" />
+            <element signature="method#getPassword#0;class#Hotspot#0" expanded="false" />
+            <element signature="method#getSecurity#0;class#Hotspot#0" expanded="false" />
+            <element signature="method#getNoOfDevices#0;class#Hotspot#0" expanded="false" />
+            <element signature="method#isActive#0;class#Hotspot#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="127" column="20" lean-forward="true" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+          <folding>
+            <element signature="method#stopNetwork#0;class#Controller#0" expanded="false" />
+            <element signature="e#5908#6771#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
