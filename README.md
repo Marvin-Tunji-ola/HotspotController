@@ -11,10 +11,12 @@ HotspotController is a OpenSource JavaFXML application that serve as an Hosted N
     <br>
     <b>For Java Executable(.Jar): </b>
     <a href="https://github.com/Marvin-Tunji-ola/HotspotController/raw/master/out/artifacts/HotspotController/HotspotController.jar">Click Here</a>
+    <br/>!Note: Make sure you run as Administrator
+    <br />
     <br />
     <b>For Windows Native Executable(.exe): </b>
     <a href="https://github.com/Marvin-Tunji-ola/HotspotController/raw/master/HotspotController.exe">Click Here </a>
-    <p>!Note: Make sure you run as Administrator</p>
+    <br />Runs Automatically as Administrator
    </p>
 
 
