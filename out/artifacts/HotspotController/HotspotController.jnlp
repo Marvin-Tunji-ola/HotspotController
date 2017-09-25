@@ -2,13 +2,13 @@
 <jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HotspotController.jnlp">
   <information>
     <title>HotspotController 1.0</title>
-    <vendor>Marvin's Concept</vendor>
+    <vendor>Marvin's Softwares</vendor>
     <description>HotspotController</description>
     <offline-allowed/>
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="HotspotController.jar" size="349646" download="eager" />
+    <jar href="HotspotController.jar" size="1026872" download="eager" />
   </resources>
 <security>
   <all-permissions/>

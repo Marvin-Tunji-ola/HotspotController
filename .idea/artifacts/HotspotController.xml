@@ -7,9 +7,11 @@
         <option name="appClass" value="sample.Main" />
         <option name="description" value="" />
         <option name="enabledSigning" value="true" />
+        <option name="htmlPlaceholderId" value="" />
         <option name="keystore" value="" />
         <option name="title" value="HotspotController 1.0" />
-        <option name="vendor" value="Marvin's Concept" />
+        <option name="vendor" value="Marvin's Softwares" />
+        <option name="version" value="1.0" />
       </options>
     </properties>
     <root id="root">
